@@ -8,9 +8,15 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 def preprocess_text(text: str) -> str:
+<<<<<<< HEAD
     if pd.isna(text):              # NaN / None
         return ""
     if not isinstance(text, str):  # float, int, etc.
+=======
+    if pd.isna(text):
+        return ""
+    if not isinstance(text, str): 
+>>>>>>> 6abcd5023d8a49dcf459649730839afd9957307e
         text = str(text).strip()
 
     english_stopwords = set(stopwords.words('english'))
