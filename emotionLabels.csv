@@ -1,0 +1,202 @@
+text,emotion
+I feel tense and under pressure to finish everything,stress
+My chest feels tight thinking about deadlines,stress
+I can't relax because there's too much to do,stress
+I feel anxious about tomorrow's exam,anxiety
+My thoughts keep racing and I feel uneasy,anxiety
+I am nervous about making mistakes,anxiety
+Everything feels like it's piling up at once,overwhelm
+I don't know where to start anymore,overwhelm
+I feel buried under tasks,overwhelm
+I'm stuck and nothing is working,frustration
+This keeps failing and it's irritating,frustration
+I keep trying but get nowhere,frustration
+I don't understand what this question wants,confusion
+This explanation makes no sense to me,confusion
+I'm lost despite rereading it,confusion
+My brain feels exhausted,mental_fatigue
+I can' t think clearly anymore,mental_fatigue
+I feel mentally drained,mental_fatigue
+I'm completely burned out from work,burnout
+I have no energy left for this,burnout
+I feel emotionally exhausted,burnout
+This task feels painfully boring,boredom
+I can't stay interested at all,boredom
+My attention keeps drifting,boredom
+I feel like giving up,discouragement
+It feels pointless to continue,discouragement
+I've lost hope with this,discouragement
+I feel isolated and alone,loneliness
+No one seems to understand me,loneliness
+I feel disconnected from people,loneliness
+I'm angry about how this was handled,anger
+I feel irritated and annoyed,anger
+I'm struggling to control my temper,anger
+There's so much pressure on me right now,pressure
+I feel crushed by expectations,pressure
+I'm under intense demand,pressure
+I'm scared this will go wrong,fear
+I feel afraid to try,fear
+I'm worried about failing publicly,fear
+I feel bad for not doing better,guilt
+I regret not trying harder,guilt
+I blame myself for this,guilt
+I feel embarrassed and ashamed,shame
+I keep replaying my mistakes,shame
+I feel exposed and inadequate,shame
+I feel motivated to get started,motivation
+I'm ready to work on this,motivation
+I want to make progress today,motivation
+I'm fully focused right now,focus
+I can concentrate without distraction,focus
+I'm in the zone,focus
+I feel calm and steady,calm
+My mind feels relaxed,calm
+I'm at ease with this task,calm
+I feel hopeful about the outcome,optimism
+I believe things will work out,optimism
+I'm positive about my progress,optimism
+I'm satisfied with how this went,satisfaction
+I feel content with my effort,satisfaction
+I'm pleased with the result,satisfaction
+I feel capable of handling this task,self_efficacy
+I believe I can complete this,self_efficacy
+I know how to approach this problem,self_efficacy
+I'm curious to learn more about this,curiosity
+This topic interests me,curiosity
+I want to explore this further,curiosity
+I'm fully engaged in what I'm doing,engagement
+I'm actively involved in this task,engagement
+I'm absorbed in the work,engagement
+Things make sense now,clarity
+I finally understand this,clarity
+My thoughts feel clear,clarity
+I feel relieved now that it's over,relief
+The tension is gone,relief
+I feel lighter after finishing,relief
+"I'm under so much pressure with all these deadlines",stress
+"My workload is overwhelming me",stress
+"I can't keep up with everything at once",stress
+"I'm feeling tense and restless",stress
+"Everything seems to pile up at the same time",stress
+"I'm anxious about the meeting tomorrow",anxiety
+"My mind keeps racing with what-ifs",anxiety
+"I feel nervous about trying something new",anxiety
+"I'm worried I won't do well",anxiety
+"I feel uneasy about this task",anxiety
+"There’s too much happening and I can't manage",overwhelm
+"I feel buried under all my responsibilities",overwhelm
+"I don’t know where to start",overwhelm
+"Everything seems too complicated right now",overwhelm
+"I feel like I’m drowning in tasks",overwhelm
+"I’ve tried and nothing is working",frustration
+"This keeps failing and I can’t figure it out",frustration
+"I feel stuck and irritated",frustration
+"Why does this keep going wrong?",frustration
+"I'm annoyed that I can't solve this",frustration
+"I don’t understand what I’m supposed to do",confusion
+"This explanation makes no sense",confusion
+"I'm lost despite reading it again",confusion
+"I’m confused about the instructions",confusion
+"I feel unsure how to proceed",confusion
+"This task is so dull",boredom
+"I can’t keep myself interested",boredom
+"I'm drifting off because it's repetitive",boredom
+"Nothing about this excites me",boredom
+"I'm tired of doing the same thing",boredom
+"My brain feels completely exhausted",mental_fatigue
+"I can’t focus anymore",mental_fatigue
+"I feel drained from thinking so much",mental_fatigue
+"My mind is worn out",mental_fatigue
+"I feel like I need a mental break",mental_fatigue
+"I'm burned out from too much work",burnout
+"I feel emotionally drained",burnout
+"I have no energy left to study",burnout
+"I'm exhausted and unmotivated",burnout
+"My motivation has completely vanished",burnout
+"I feel like giving up",discouragement
+"It feels pointless to continue",discouragement
+"I can't see the progress",discouragement
+"I'm losing hope in this",discouragement
+"I feel defeated and stuck",discouragement
+"I feel completely alone",loneliness
+"No one seems to understand me",loneliness
+"I’m isolated and disconnected",loneliness
+"I feel like nobody is there for me",loneliness
+"I miss having someone to talk to",loneliness
+"I'm furious about what happened",anger
+"I can't stand this situation",anger
+"I'm irritated beyond belief",anger
+"I'm annoyed with everyone right now",anger
+"I feel so angry I can't think straight",anger
+"I feel crushed by expectations",pressure
+"There's so much I need to do and no time",pressure
+"I’m under intense pressure to perform",pressure
+"Everything feels urgent and stressful",pressure
+"The demands are overwhelming",pressure
+"I'm scared this will go wrong",fear
+"I feel afraid to fail",fear
+"I’m nervous about making mistakes",fear
+"I'm worried about what might happen",fear
+"I feel unsafe and uncertain",fear
+"I feel bad for not trying harder",guilt
+"I regret my actions",guilt
+"I blame myself for this",guilt
+"I should have done better",guilt
+"I'm ashamed I let this happen",guilt
+"I'm embarrassed about what I did",shame
+"I feel ashamed in front of others",shame
+"I keep replaying my mistakes",shame
+"I feel exposed and inadequate",shame
+"I'm humiliated by what happened",shame
+"I'm motivated to finish my project",motivation
+"I feel eager to get started",motivation
+"I'm ready to tackle my tasks",motivation
+"I want to make progress today",motivation
+"I'm energized to work on this",motivation
+"I'm fully concentrated right now",focus
+"I can focus without distraction",focus
+"I'm in the zone with this task",focus
+"My attention is sharp",focus
+"I'm deeply engaged with this work",focus
+"I feel relaxed and at peace",calm
+"My mind is steady and clear",calm
+"I'm not worried at all",calm
+"I'm calm and ready to handle this",calm
+"My thoughts are centered",calm
+"I believe things will work out",optimism
+"I'm hopeful about the future",optimism
+"I'm positive about the outcome",optimism
+"I feel confident things will improve",optimism
+"I’m optimistic about this situation",optimism
+"I'm proud of my effort today",satisfaction
+"I'm happy with what I accomplished",satisfaction
+"I feel content with the results",satisfaction
+"I’m pleased with my progress",satisfaction
+"This went better than I expected",satisfaction
+"I know I can finish this task",self_efficacy
+"I'm capable of handling this challenge",self_efficacy
+"I feel confident I can succeed",self_efficacy
+"I have the skills to manage this",self_efficacy
+"I'm able to do this effectively",self_efficacy
+"I'm curious to learn more",curiosity
+"This topic fascinates me",curiosity
+"I want to explore this further",curiosity
+"I'm eager to understand better",curiosity
+"I’m intrigued by this idea",curiosity
+"I'm fully involved in this work",engagement
+"I’m absorbed in the task",engagement
+"This is keeping me interested",engagement
+"I'm actively participating",engagement
+"I'm completely focused on this",engagement
+"Everything makes sense now",clarity
+"I understand the problem clearly",clarity
+"My thoughts are clear",clarity
+"I have a clear plan",clarity
+"I feel mentally organized",clarity
+"I'm relieved this is over",relief
+"I feel a weight lifted off my shoulders",relief
+"I'm glad that finished successfully",relief
+"The stress is gone now",relief
+"I feel lighter and calmer",relief
+

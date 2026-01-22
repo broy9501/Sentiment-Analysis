@@ -1,0 +1,54 @@
+Recommend what action a user should take next based on their mood and situation, not just content
+
+Example:
+    - “I feel unmotivated and tired”
+    - “I’m stressed before exams”
+    - “I feel confident today”
+
+input: "I feel overwhelmed and can’t focus today"
+
+AI Pipeline:
+    - Sentiment analysis -> (stress, anxiety, confidence)
+    - Intent classification -> productivity/rest/learning
+    -Rule + ML hybrid recommender
+
+output:
+{
+  "emotion": "stress",
+  "recommendation": [
+    "Take a 10-minute walk",
+    "Do a 5-minute breathing exercise",
+    "Work on a low-effort task"
+  ],
+  "reason": "Users in similar emotional states performed better after short breaks"
+}
+
+
+C:\Users\broy9\AppData\Local\Programs\Python\Python313\
+C:\Users\broy9\AppData\Local\Programs\Python\Python313\Scripts\
+C:\Users\broy9\AppData\Local\Programs\Python\Python310\Scripts\
+
+Datasets needed:
+    - Emotion Detection Dataset
+    - Context / Situation Dataset
+    - Action Recommendation Dataset (custom)
+
+
+hybrid: content + collaorative combined
+  - load the Dataset mood -> action
+   - content part: get the data, apply preprocessing, compute similarity after vectorising 
+  - collaborative part: give the reader a scale, and get data by loading from the dataset
+
+  - getting content recommendation: get index then check the similarity score, get the similar item's indexes in order, then get recommendations with loc
+
+  - getting collaborative recommendation: set the SVD then get the full trainset from the data that you used from the dataset and train the model on the trainset, then get testset from anti trainset (testset), then filter the test based on input needs, then get predictions and sort out the predictions, then with prediction get recommendations going through predictions
+
+  - to make it hybrid: get recommendations from both types then put them together into a list/set
+
+  - with input, get hybrid recommendations, then loop through it by enumerating it if needed to access it
+
+
+
+all-mpnet-base-v2
+multi-qa-MiniLM-L6-cos-v1
+paraphrase-multilingual-MiniLM-L12-v2 (if you expect non-English later)
