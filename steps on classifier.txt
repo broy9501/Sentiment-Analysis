@@ -1,0 +1,44 @@
+Key rule:
+
+	- Use .fit_transform()only on training data -It learns the list + importance scores 	from the data. - learn + convert
+
+	- Use .transform() only on test/new data - It reuses exactly what was learned from 	training, no new learning and keeps test data "secret" to reduce bias - convert only
+
+
+
+using sklearn
+using panda
+
+read the csv file and pass it into a dataframe
+
+split the data into train and test
+
+
+----------------------
+
+count the words (not necessary) and vectorise it of the train x (input) data
+
+get the frequency through the tfidf transformer if used count words
+
+--------------
+
+or simpler, just vectorise the train x (input) data
+
+then initialise the classifier like neural network or logistic regression
+
+then get the y train (output)
+
+then for x test (new/unseen input) transform it using the same vectorizer fitted for training data
+
+then get y test (new output for x test) from test
+
+then use the classifier to fit the training data and train the model
+
+then evaluate it by:
+
+pass the x test through the classifier after training to predict the y pred (output from the input)
+
+then get the accuracy by comparing the y pred with the y test
+
+then loop through each of the predictions and input and calculate the sentiment and the confidence through accuracy
+
