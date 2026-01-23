@@ -28,10 +28,7 @@ The goal of this project is to move beyond simple keyword matching and instead u
    - Text is converted into numerical form using NLP techniques such as:
      - TF-IDF
 
-4. **Similarity & Analysis**
-   - Cosine similarity is used to compare user input against known sentiment or emotion patterns.
-
-5. **Sentiment & Emotion Detection**
+4. **Sentiment & Emotion Detection**
    - The system outputs:
      - Positive, Neutral, Negative
 
@@ -42,12 +39,8 @@ The goal of this project is to move beyond simple keyword matching and instead u
 - **scikit-learn**
 - **SentenceTransformers**
 - **Pandas**
-- **Cosine Similarity**
 - **TF-IDF Vectorisation**
 
 ---
 
-## 📥 Example Input
-```text
-That’s done and I feel lighter now.
 
